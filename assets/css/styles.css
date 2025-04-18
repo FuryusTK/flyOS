@@ -1,0 +1,73 @@
+/* Este arquivo contém os estilos CSS utilizados em todo o projeto, definindo a aparência visual das páginas. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn {
+    border-radius: 0.25rem;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.container {
+    max-width: 800px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para o menu lateral */
+#sidebar {
+    width: 250px;
+    min-height: 100vh;
+    border-right: 1px solid #dee2e6;
+}
+
+/* Estilo para os botões do menu */
+#sidebar .list-group-item {
+    border-radius: 8px; /* Cantos arredondados */
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+/* Cor de fundo ao passar o mouse */
+#sidebar .list-group-item:hover {
+    background-color: #007bff; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para o conteúdo principal */
+#main-content {
+    flex-grow: 1;
+}
